@@ -1,13 +1,13 @@
 {
   "presets": [
-    "@babel/react",
-    "@babel/stage-3",
-    "@babel/preset-typescript",
     ["@babel/env", {
       "targets": {
         "browsers": ["last 2 versions"]
       }
-    }]
+    }],
+    "@babel/react",
+    "@babel/stage-3",
+    "@babel/preset-typescript"
   ],
   "plugins": [
     "@babel/plugin-transform-runtime",
